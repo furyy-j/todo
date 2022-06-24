@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+
+	<link rel="icon" type="image/png" sizes="16x16" href="img/ icon/free-icon-ukraine-24056.png">
+	<title>ToDoApp</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div id="menu" class="header">
+				<h2>ToDo</h2>
+				<input type="text" id='myInput' placeholder="TITLE">
+				<span class="add" onclick="newElement()">ADD</span>
+			</div>
+
+			<ul id="myUL" onclick="check()">
+				<li>Task 1</li>
+				<li>Task 2</li>
+
+			</ul>
+			<button data-tooltip="Обнулить localStorage " class='clearLS' onclick="clearLS()">&#9881; </button>
+		</div>
+		<script type="module" src="./js/index.js"></script>
+		<script>
+			var parcelRequire;
+		</script>
+
+	</body>
+</html>
+
+
